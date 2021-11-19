@@ -7,6 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数的阶乘", "数的阶�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "指针初步", "指针初步\指针初步.vcxproj", "{474E445D-9FB4-45DB-8791-F45A3899F83B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "因式分解", "因式分解\因式分解.vcxproj", "{40CB5C69-B824-4DE7-A571-B31BDE9B6B20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "获取一个整数的每一位上的数字", "获取一个整数的每一位上的数字\获取一个整数的每一位上的数字.vcxproj", "{4682CA5B-56AE-47A4-9210-C3D7205BD6E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2019浙江教招信息技术编程题-验证一个整数是否是Smith数", "2019浙江教招信息技术编程题-验证一个整数是否是Smith数\2019浙江教招信息技术编程题-验证一个整数是否是Smith数.vcxproj", "{425E5630-F9C6-4958-92A4-FD6D726CC580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +37,30 @@ Global
 		{474E445D-9FB4-45DB-8791-F45A3899F83B}.Release|x64.Build.0 = Release|x64
 		{474E445D-9FB4-45DB-8791-F45A3899F83B}.Release|x86.ActiveCfg = Release|Win32
 		{474E445D-9FB4-45DB-8791-F45A3899F83B}.Release|x86.Build.0 = Release|Win32
+		{40CB5C69-B824-4DE7-A571-B31BDE9B6B20}.Debug|x64.ActiveCfg = Debug|x64
+		{40CB5C69-B824-4DE7-A571-B31BDE9B6B20}.Debug|x64.Build.0 = Debug|x64
+		{40CB5C69-B824-4DE7-A571-B31BDE9B6B20}.Debug|x86.ActiveCfg = Debug|Win32
+		{40CB5C69-B824-4DE7-A571-B31BDE9B6B20}.Debug|x86.Build.0 = Debug|Win32
+		{40CB5C69-B824-4DE7-A571-B31BDE9B6B20}.Release|x64.ActiveCfg = Release|x64
+		{40CB5C69-B824-4DE7-A571-B31BDE9B6B20}.Release|x64.Build.0 = Release|x64
+		{40CB5C69-B824-4DE7-A571-B31BDE9B6B20}.Release|x86.ActiveCfg = Release|Win32
+		{40CB5C69-B824-4DE7-A571-B31BDE9B6B20}.Release|x86.Build.0 = Release|Win32
+		{4682CA5B-56AE-47A4-9210-C3D7205BD6E4}.Debug|x64.ActiveCfg = Debug|x64
+		{4682CA5B-56AE-47A4-9210-C3D7205BD6E4}.Debug|x64.Build.0 = Debug|x64
+		{4682CA5B-56AE-47A4-9210-C3D7205BD6E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{4682CA5B-56AE-47A4-9210-C3D7205BD6E4}.Debug|x86.Build.0 = Debug|Win32
+		{4682CA5B-56AE-47A4-9210-C3D7205BD6E4}.Release|x64.ActiveCfg = Release|x64
+		{4682CA5B-56AE-47A4-9210-C3D7205BD6E4}.Release|x64.Build.0 = Release|x64
+		{4682CA5B-56AE-47A4-9210-C3D7205BD6E4}.Release|x86.ActiveCfg = Release|Win32
+		{4682CA5B-56AE-47A4-9210-C3D7205BD6E4}.Release|x86.Build.0 = Release|Win32
+		{425E5630-F9C6-4958-92A4-FD6D726CC580}.Debug|x64.ActiveCfg = Debug|x64
+		{425E5630-F9C6-4958-92A4-FD6D726CC580}.Debug|x64.Build.0 = Debug|x64
+		{425E5630-F9C6-4958-92A4-FD6D726CC580}.Debug|x86.ActiveCfg = Debug|Win32
+		{425E5630-F9C6-4958-92A4-FD6D726CC580}.Debug|x86.Build.0 = Debug|Win32
+		{425E5630-F9C6-4958-92A4-FD6D726CC580}.Release|x64.ActiveCfg = Release|x64
+		{425E5630-F9C6-4958-92A4-FD6D726CC580}.Release|x64.Build.0 = Release|x64
+		{425E5630-F9C6-4958-92A4-FD6D726CC580}.Release|x86.ActiveCfg = Release|Win32
+		{425E5630-F9C6-4958-92A4-FD6D726CC580}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
