@@ -1,12 +1,12 @@
 /*若一个合数的质因数分解式逐位相加之和等于其本身逐位相加之和，则称这个数为 Smith 数。
 如4937775=3*5*5*65837，而 3+5+5+6+5+8+3+7=42，4+9+3+7+7+7+5=42，所以 4937775 是 Smith 数。给定一个正整数 N，判断 N 是否为 Smith 数。*/
 #include <stdio.h>
-void main()
+int main(void)
 {
 	int a,b, sum1, sum2;
 	sum1 = 0, sum2 = 0;
 	printf("请输入一个整数:");
-	scanf_s("%d", &a);
+	scanf("%d", &a);
 	printf("\r\n");
 	b = a;
 	/*因式分解*/

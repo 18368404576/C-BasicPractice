@@ -3,11 +3,11 @@
 
 #include <stdio.h>
 void swap(int* a, int* b);
-int main()
+int main(void)
 {
 	int r, s, p = 0;
 	printf("请输入一个大于5的整数：\n");
-	scanf_s("%d", &r);
+	scanf("%d", &r);
 	if (r <= 5)
 	{
 		printf("请输入大于5的整数!\n");

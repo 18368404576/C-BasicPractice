@@ -1,9 +1,9 @@
 #include <stdio.h>
-void main()
+int main(void)
 {
 	int a;
 	printf("请输入一个整数:\r\n");
-	scanf_s("%d", &a);
+	scanf("%d", &a);
 	while (a/10!=0)
 	{
 		int i;
